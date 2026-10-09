@@ -8,6 +8,7 @@ import {
 import confetti from 'canvas-confetti';
 import { playCorrectSound, playBlowSound, playFanfare, startBirthdayMusic, stopBirthdayMusic, toggleBirthdayMusic } from '../utils/audio';
 import { GoldenCorner, GoldenDivider, SparkleStar, fireGrandBirthdayConfetti } from './Ornaments';
+import { PhotoMemorialSection } from './PhotoMemorialSection';
 
 interface Wish {
   id: string;
@@ -857,6 +858,9 @@ export const CelebrationStage: React.FC<CelebrationStageProps> = ({ onRestartQui
           ))}
         </div>
       </section>
+
+      {/* Special Memorial Photo Section at the End */}
+      <PhotoMemorialSection />
 
       {/* Replay Quiz / Reset Navigation */}
       <div className="text-center pt-4">
