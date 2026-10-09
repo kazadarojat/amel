@@ -874,6 +874,8 @@ export const CelebrationStage: React.FC<CelebrationStageProps> = ({ onRestartQui
         <p className="text-xs text-slate-400 mt-2">
           Selamat ulang tahun ke-27 untuk drg. Amelia Sekar Kinasih · Sehat dan sukses selalu.
         </p>
+      </div>
+
       {/* Final Portrait — placed after every other celebration section */}
       <section className="relative mt-8 overflow-hidden rounded-3xl border border-sky-300/30 bg-gradient-to-br from-[#111b27] via-[#121622] to-[#0b0d14] p-5 md:p-8 text-center shadow-[0_12px_40px_rgba(0,0,0,0.45)]">
         <div className="mx-auto mb-5 max-w-2xl space-y-2">
@@ -894,11 +896,9 @@ export const CelebrationStage: React.FC<CelebrationStageProps> = ({ onRestartQui
           height={397}
           loading="lazy"
           decoding="async"
-          className="mx-auto block h-auto w-full max-w-[360px] rounded-2xl border border-sky-200/30 shadow-[0_12px_40px_rgba(0,0,0,0.45)]"
+          className="mx-auto block h-auto w-full max-w-[300px] rounded-2xl border border-sky-200/30 shadow-[0_12px_40px_rgba(0,0,0,0.45)]"
         />
       </section>
-
-      </div>
 
     </div>
   );
