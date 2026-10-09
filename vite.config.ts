@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // The repository is published at https://kazadarojat.github.io/amel/
+    // Use the repository subpath on GitHub Pages while preserving root paths locally.
+    base: process.env.GITHUB_PAGES === 'true' ? '/amel/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
