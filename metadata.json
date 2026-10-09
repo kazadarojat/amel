@@ -1,0 +1,6 @@
+{
+  "name": "Selamat Ulang Tahun Ke-27 Kak Amelia Sekar Kinasih, drg.",
+  "description": "Web interaktif ucapan selamat ulang tahun ke-27 untuk drg. Amelia Sekar Kinasih dengan tantangan kuis klinis dental dan kejutan spesial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
